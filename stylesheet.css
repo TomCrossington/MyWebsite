@@ -1,0 +1,67 @@
+body {
+	background-image: url(landscape.jpg);
+	background-size: cover;
+
+}
+
+/* body class mainly used to ajust background image */
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-family: Arial Nova Light;
+	
+	
+}
+
+/* Main title edit */
+
+.button1 {
+	font-size: 30px;
+ 	
+}
+
+
+.btn1 {
+  position: relative;
+  left: 475px;
+  top: 100px;
+  font-size: 30px;
+  font-family: Calibri Light;
+  text-decoration: none;
+}
+.btn2 {
+  position: relative;
+  left: 515px;
+  top: 100px;
+  font-size: 30px;
+  font-family: Calibri Light;
+  text-decoration: none;                /* separated buttons into seperate classes in order to individually place and edit each button to make them more bespoke */
+}
+.btn3 {
+  position: relative;
+  left: 575px;
+  top: 100px;
+  font-size: 30px;
+  font-family: Calibri Light;
+  text-decoration: none;
+}
+.btn4 {
+  position: relative;
+  left: 615px;
+  top: 100px;
+  font-size: 30px;
+  font-family: Calibri Light;
+  text-decoration: none;
+}
+
+/* placing buttons in correct place on page and changing the apparence of the buttons text */
+
+
+a:hover{
+	font-size: 35px;
+}
+ /*font size increses when mouse hovers over button */
+ 
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<title> main page </title>
+<h1> T h o m a s&nbsp; &nbsp; &nbsp; c r o s s </h1>
+</head>
+
+<body>
+
+<a class="btn1" href="tasksheets.html">Task sheets</a>
+<a class="btn2" href="about.html">Website info</a>
+<a class="btn3" href="contact_us.html">Personal Info</a>                 <!-- navigation buttons to access each different page of the website -->
+<a class="btn4" href="https://www.facebook.com/">Social media</a>
+
+
+
+<script>
+	function changeBg(){
+	
+		const images = ['url("landscape.jpg")', 'url("landscape2.jpg")', 'url("landscape3.jpg")']            <!-- Javascript for changing background images on a random loop -->
+		
+		const section = document.querySelector('body')
+		const bg = images[Math.floor(Math.random() * images.length)];
+		section.style.backgroundImage = bg;
+		
+	}
+	setInterval(changeBg, 1000)                 <!-- defining the time between each image change -->
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
