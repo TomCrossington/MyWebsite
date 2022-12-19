@@ -1,0 +1,87 @@
+body {
+	background-image: url(portfolioimg.jpg);
+	background-size: cover;                   /* background styling*/
+	
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	font-size: 60px;                
+	font-family: Calibri Light;
+	top: 30px;
+	
+}
+
+#para {
+	position: relative;
+	display: inline-block;
+	left: 200px;           /* paragraph styling */
+	top: 300px;
+	
+}
+
+.image_container {
+	position: relative;
+	left: 550px;
+	top: 100px;          /* container for images displayed */
+	height: 200px;
+	
+}
+
+.image_1 {
+	
+}
+                     /*individual image styling */
+.image_2 {
+	width: 425px;
+	height: 263;
+	
+	
+}
+
+.btn1 {
+	position: relative;
+	bottom: 40px;
+	right: 250px;
+	font-size: 25px; 
+	text-decoration: none;
+	font-family: Courier New;
+	
+}
+
+.btn2 {
+	position: relative;
+	bottom: 40px;
+	right: 230px;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Courier New;                   /* button styling */
+}
+
+.btn3 {
+	position: relative;
+	bottom: 40px;
+	right: 210px;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Courier New;
+}
+
+.btn4 {
+	position: relative;
+	bottom: 40px;
+	right: 190px;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: Courier New;
+	
+}
+
+a:hover{
+	font-size: 30px;          /* same on mouse hover effect as on main page */
+}
+
+
+
+
